@@ -1,0 +1,120 @@
+// Файл обнуляющих стилей
+@import "_nullstyle";
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: black;
+}
+
+//header style start-------------------------------------
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item {
+    margin-right: 82px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+.header__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    &:hover, &:focus, &:active{
+        opacity: 0.45;
+    }
+}
+
+//header style end---------------------------------------
+
+//intro style start--------------------------------------
+
+.intro{
+    min-height: 100vh;
+    background: url(/img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+}
+
+.intro__title{
+    max-width: 619px;    
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+
+.intro__subtitle{
+    max-width: 546px;    
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 59px;
+}
+
+.search-form__info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form__field{
+    width: 297px;
+    background: transparent url(/img/svg/circle-icon.svg) no-repeat left 8px;
+    background-size: 20px;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    &::placeholder{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+}
+
+.search-form__submit{
+    padding: 15px 39px;
+    background-color: #1B7DFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    &:focus, &:hover{
+        background-color: #124e9c;
+    }
+    &:active{
+        background-color: #623B4C;
+    }
+}
+//intro style end----------------------------------------
