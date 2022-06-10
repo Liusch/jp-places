@@ -2,9 +2,9 @@
 
 ## description:pencil2:
 
-+A project for developing HTML CSS SCSS layout skills.
-+Using CSS elements Grid Layot and Flexbox.
-+Application of adaptive layout for different screen resolutions.
+- A project for developing HTML CSS SCSS layout skills.
+- Using CSS elements Grid Layot and Flexbox.
+- Application of adaptive layout for different screen resolutions.
 
 ### Adaptive for Iphone5/SE:small_red_triangle_down:
 
