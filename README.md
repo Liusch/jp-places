@@ -9,7 +9,7 @@
 
 ### Page:small_red_triangle_down:
 
-![Page](https://i.postimg.cc/qM906kr6/jp-places-2.gif)
+![Page](https://i.postimg.cc/Wp5nkWkL/jp-places-2-4.gif)
 
 ### Adaptive for Iphone5/SE:small_red_triangle_down:
 
